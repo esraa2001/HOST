@@ -19,8 +19,25 @@ const donot_marry = require('../assets/images/donot_marry.png');
 const questionsBg1 = require('../assets/images/questionsBg1.jpg');
 const questionsBg2 = require('../assets/images/questionsBg2.jpg');
 const cover = require('../assets/images/cover.png');
+const mail = require('../assets/images/mail.png');
+const changePassword = require('../assets/images/changePassword.png');
+const eye_off = require('../assets/images/eye_off.png');
+const editing = require('../assets/images/editing.png');
+const outline_edit = require('../assets/images/outline_edit.png');
+const contact = require('../assets/images/chat.png');
+const setting = require('../assets/images/setting.png');
+const logOut = require('../assets/images/exit.png');
+
 
 export default {
+  mail,
+  contact,
+  logOut,
+  setting,
+  outline_edit,
+  editing,
+  changePassword,
+  eye_off,
   cover,
   mainLogo,
   drMatary,

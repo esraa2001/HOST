@@ -213,9 +213,10 @@ const styles = StyleSheet.create({
   tabBarContainer: {
     flexDirection: 'row',
     paddingHorizontal: RFValue(3),
-    backgroundColor: COLORS.white,
+    backgroundColor: COLORS.white2,
     alignItems: 'center',
     justifyContent: 'space-around',
+    elevation: 10
   },
 });
 export default BottomTab;

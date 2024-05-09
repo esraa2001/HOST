@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "765166409421",
+    "project_id": "codecenter-6a73f",
+    "storage_bucket": "codecenter-6a73f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765166409421:android:7ed2dab8c23234432dbb84",
+        "android_client_info": {
+          "package_name": "com.campcentercode"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOH6OOxL26mGoUNaYDdfvzXuJ1pyt8G44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

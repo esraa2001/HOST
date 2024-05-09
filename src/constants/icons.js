@@ -26,10 +26,12 @@ const lover = require('../assets/icons/lover.png');
 const hide = require('../assets/icons/hide.png');
 const agenda = require('../assets/icons/agenda.png');
 const highlighter = require('../assets/icons/highlighter.png');
+const satisfaction = require('../assets/icons/satisfaction.png');
 
 
 export default {
   ellipse,
+  satisfaction,
   email,
   invisible,
   show,

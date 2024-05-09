@@ -8,7 +8,7 @@ export const IS_IPHONE_X = isIphoneX();
 export const COLORS = {
   // base colors
   primary: '#30BADC',
-  secondary: '#E2F0F3',
+  secondary: '#bce4ee',
   black: '#000000',
   third: "#002D3A",
   green: '#60c5a8',
