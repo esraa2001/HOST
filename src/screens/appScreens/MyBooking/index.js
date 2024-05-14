@@ -1,5 +1,8 @@
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8b1da21babf889d8ca0bcea0e6ca8d9d11daf535
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, FlatList, Image } from 'react-native';
 import { COLORS, FONTS, SIZES, icons } from '../../../constants';
@@ -39,7 +42,11 @@ const MyBooking = () => {
     const renderItem = ({ item }) => (
         <TouchableOpacity style={styles.itemContainer}>
             <Image source={{ uri: item.image }} style={styles.image} />
+<<<<<<< HEAD
             <View style={{ padding: RFValue(10), width: "70%" }}> 
+=======
+            <View style={{ padding: RFValue(10), width: "70%" }}>
+>>>>>>> 8b1da21babf889d8ca0bcea0e6ca8d9d11daf535
                 <Text numberOfLines={1} style={styles.hotelName}>Blue Yoga Hotel, Bali</Text>
                 <Text numberOfLines={1} style={styles.address}><SimpleLineIcons name={"location-pin"} /> Legian Nort St, Kuta, Bali</Text>
                 <View>
@@ -74,17 +81,39 @@ const MyBooking = () => {
                     }}>
                         <Text style={{ ...FONTS.body5, fontFamily: FONTS.fontFamilyBold, color: COLORS.primary }}>{selectedCategory == "Current" ? "Cancel" : selectedCategory == "Past" ? "Details" : "Book Again"}</Text>
                     </TouchableOpacity>
+<<<<<<< HEAD
                    
+=======
+                    {/* <TouchableOpacity style={{
+                        justifyContent: "center",
+                        alignItems: "center",
+                        maxWidth: "50%",
+                        backgroundColor: COLORS.gray3,
+                        padding: SIZES.base,
+                        marginTop: RFValue(10),
+                        borderRadius: SIZES.base
+                    }}>
+                        <Text style={{ ...FONTS.body5, fontFamily: FONTS.fontFamilyBold, color: COLORS.primary }}>{item.price} / Night</Text>
+                    </TouchableOpacity> */}
+>>>>>>> 8b1da21babf889d8ca0bcea0e6ca8d9d11daf535
                 </View>
             </View>
             <TouchableOpacity style={{
                 position: "absolute",
                 top: RFValue(5),
                 right: RFValue(5),
+<<<<<<< HEAD
                 padding: RFValue(3),
                 borderRadius: SIZES.radius
             }}>
                 <Image source={icons.heart} style={{
+=======
+                backgroundColor: COLORS.gray3,
+                padding: RFValue(3),
+                borderRadius: SIZES.radius
+            }}>
+                <Image source={icons.love} style={{
+>>>>>>> 8b1da21babf889d8ca0bcea0e6ca8d9d11daf535
                     width: RFValue(20),
                     height: RFValue(20),
                     tintColor: COLORS.primary

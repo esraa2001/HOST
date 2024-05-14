@@ -10,6 +10,7 @@ import ProgressBar from './ProgressBar';
 import ModalReportProblem from './ModalReportProblem';
 import MsgComponent from './MsgComponent';
 import TimeDelivery from './TimeDelivery';
+import FormInput from './FormInput';
 
 export {
   MsgComponent,
@@ -22,4 +23,5 @@ export {
   ModalPopup,
   ProgressBar,
   ModalReportProblem,
+  FormInput
 };
