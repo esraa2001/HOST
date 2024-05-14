@@ -23,26 +23,26 @@ const Tab = createBottomTabNavigator();
 // import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 const TabArr = [
   {
-    route: 'Home',
-    label: 'Home',
+    // route: 'Home',
+    // label: 'Home',
     activeIcon: icons.tabHome,
     component: Home,
   },
   {
-    route: 'MyBooking',
-    label: 'My Booking',
+    // route: 'MyBooking',
+    // label: 'My Booking',
     activeIcon: icons.calender,
     component: MyBooking,
   },
   {
-    route: 'Inbox',
-    label: 'Inbox',
+    // route: 'Inbox',
+    // label: 'Inbox',
     activeIcon: icons.inbox,
     component: Inbox,
   },
   {
-    route: 'Favorite',
-    label: 'Favorite',
+    // route: 'Favorite',
+    // label: 'Favorite',
     activeIcon: icons.love,
     component: Favorite,
   },

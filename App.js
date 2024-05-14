@@ -17,6 +17,8 @@ import {
   modifyNetWork,
   setUser,
 } from './src/redux/reducers/UserReducer';
+import { Login } from './src/screens/authScreens';
+import Homesec from './src/screens/appScreens/secHome';
 
 
 
@@ -28,6 +30,9 @@ import { createStackNavigator, TransitionPresets } from '@react-navigation/stack
 import { AppStack, AuthStack } from './src/navigation';
 import SplashScreen from './SplashScreen';
 import OnBoarding from './src/screens/OnBoarding';
+import { MyBooking } from './src/screens/appScreens';
+import HOME from './src/screens/appScreens/HOME';
+import Notification from './src/screens/appScreens/Notifications';
 
 import utils from './src/utils';
 
@@ -96,37 +101,38 @@ const App = () => {
   };
 
   if (loginChk) {
-    return <SplashScreen />;
+    // return <SplashScreen />;
   }
 
 
 
   return (
-
-    <View
-      style={{
-        flex: 1,
-        marginTop: Platform.OS === 'ios' ? StatusBar.currentHeight + 40 : 0,
-      }}>
-      <SafeAreaView>
-        <View
-          style={{
-            height: Platform.OS == 'ios' ? StatusBar.currentHeight : 0,
-          }}>
-          <StatusBar backgroundColor={COLORS.primary} />
-        </View>
-      </SafeAreaView>
-
-
-      <NavigationContainer>
-        {/* {first ? <ObBoardStack /> : login ?  */}
-        <AppStack />
-        {/* : <AuthStack />} */}
-      </NavigationContainer>
-      <Toast />
+<Homesec></Homesec>
+    // <View
+    //   style={{
+    //     flex: 1,
+    //     marginTop: Platform.OS === 'ios' ? StatusBar.currentHeight + 40 : 0,
+    //   }}>
+    //   <SafeAreaView>
+    //     <View
+    //       style={{
+    //         height: Platform.OS == 'ios' ? StatusBar.currentHeight : 0,
+    //       }}>
+    //       <StatusBar backgroundColor={COLORS.primary} />
+    //     </View>
+    //   </SafeAreaView>
 
 
-    </View>
+    //   <NavigationContainer>
+    //     {/* {first ? <ObBoardStack /> : login ?  */}
+    //     <AppStack />
+    //     {/* : <AuthStack />} */}
+    //   </NavigationContainer>
+    //   <Toast />
+
+
+    // </View>
+
 
   );
 };
